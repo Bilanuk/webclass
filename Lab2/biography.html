@@ -4,32 +4,98 @@
 <head>
     <meta charset="UTF-8">
     <title>Biography</title>
+    <style>
+        #title{
+            text-align: center;
+            font-size: 22px;
+        }
+        #back{
+            font-style: italic;
+        }
+        #context{
+            text-align: center;
+        }
+
+        .button {
+            margin: 10px;
+            padding: 5px;
+            border-radius: 10px;
+            border: 1px solid red;
+            background-color: blue;
+            color: white;
+            display: block;
+            width: 150px;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        .button:hover {
+            background-color: magenta;
+            color: black;
+        }
+
+        .button:active {
+            background-color: yellow;
+            color: black;
+        }
+
+        article{
+            font-size: 120%;
+        }
+
+        article h2{
+            font-size: 120%;
+        }
+
+        article:nth-of-type(1) p{
+            background-color: rgb(50, 0, 120);
+            color: rgb(19, 255, 188);
+        }
+        article:nth-of-type(2) p {
+            background-color: rgb(220, 7, 7);
+            color: rgb(176, 176, 176);
+        }
+        article:nth-of-type(3) p{
+            background-color: rgb(32, 32, 32);
+            color: rgb(153, 192, 128);
+        }
+        article:nth-of-type(4) p{
+            background-color: rgb(28, 0, 53);
+            color: rgb(165, 157, 157);
+        }
+        article:nth-of-type(5) p{
+            background-color: rgb(1, 147, 245);
+            color: rgb(19, 19, 19);
+        }
+        article a{
+            font-weight: bold;
+            font-size: 3px;
+        }
+
+        .back_to_context{
+            font-weight: bold;
+        }
+
+        body>a:nth-last-child(1){
+            text-transform: uppercase;
+        }
+    </style>
 </head>
 
 <body>
 
     <h1 id="title">Автобіографія Біланюка Романа Богдановича</h1>
-    <a href="index.html">Назад на головну</a>
+    <a id="back" href="index.html">Назад на головну</a>
 
     <h3 id="context">Зміст</h3>
-    <p>
-        <a href="#basicInform">Базова інформація</a>
-    </p>
-    <p>
-        <a href="#childHood">Дитинство</a>
-    </p>
-    <p>
-        <a href="#schoolTime">Шкільні часи</a>
-    </p>
-    <p>
-        <a href="#afterSchool">Поза школою</a>
-    </p>
-    <p>
-        <a href="#university">Університет</a>
-    </p>
+    <a class="button" href="#basicInform">Базова інформація</a>
+    <a class="button" href="#childHood">Дитинство</a>
+    <a class="button" href="#schoolTime">Шкільні часи</a>
+    <a class="button" href="#afterSchool">Поза школою</a>
+    <a class="button" href="#university">Університет</a>
 
-    <article>
-        <h2 id="basicInform">Базова інформація</h2>
+    <article id="basicInform">
+        <h2>Базова інформація</h2>
         <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam impedit, tempore minus cum rem eligendi
             repellendus corporis vitae odit tenetur libero non nobis voluptatem temporibus quae at dolorem? Obcaecati
@@ -49,9 +115,9 @@
         </p>
 
     </article>
-    <a href="#context">Повернутися до змісту</a>
-    <article>
-        <h2 id="childHood">Дитинство</h2>
+    <a class="back_to_context" href="#context">Повернутися до змісту</a>
+    <article id="childHood">
+        <h2>Дитинство</h2>
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi architecto ratione id placeat. Autem
             sapiente quasi laudantium obcaecati ex deserunt, consequatur voluptate esse tenetur unde, enim reiciendis
@@ -71,9 +137,9 @@
         </p>
 
     </article>
-    <a href="#context">Повернутися до змісту</a>
-    <article>
-        <h2 id="schoolTime">Шкільні роки</h2>
+    <a class="back_to_context" href="#context">Повернутися до змісту</a>
+    <article id="schoolTime">
+        <h2>Шкільні роки</h2>
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem reiciendis consectetur totam optio.
             Rem sunt soluta eius ea ad distinctio perspiciatis aliquid. Voluptas dignissimos dolor sed. Ullam sint
@@ -92,9 +158,9 @@
         </p>
 
     </article>
-    <a href="#context">Повернутися до змісту</a>
-    <article>
-        <h2 id="afterSchool">Поза школою</h2>
+    <a class="back_to_context" href="#context">Повернутися до змісту</a>
+    <article id="afterSchool">
+        <h2>Поза школою</h2>
         <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure ducimus repellat mollitia voluptas quia
             facilis quo ipsa architecto nemo officiis! Nam, vitae suscipit reiciendis et, laudantium voluptas facilis
@@ -114,9 +180,9 @@
         </p>
 
     </article>
-    <a href="#context">Повернутися до змісту</a>
-    <article>
-        <h2 id="university">Університет</h2>
+    <a class="back_to_context" href="#context">Повернутися до змісту</a>
+    <article id="university">
+        <h2>Університет</h2>
         <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci maiores, rerum consequuntur quos
             necessitatibus minima quam a labore facilis mollitia error distinctio repellat perspiciatis repudiandae
@@ -136,7 +202,7 @@
         </p>
 
     </article>
-    <a href="#context">Повернутися до змісту</a>
+    <a class="back_to_context" href="#context">Повернутися до змісту</a>
 
     <hr>
     <a href="#title">Уверх</a>

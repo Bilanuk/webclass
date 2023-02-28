@@ -1,24 +1,69 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <title>Друзі</title>
+
+    <style>
+        h1{
+            font-size: 22px;
+        }
+
+        .back{
+            font-style: italic;
+        }
+
+        .centered {
+            text-align: center;
+        }
+
+        th{
+            text-align: center;
+            background-color: rgb(11, 189, 11);
+            color:white;
+            font-weight:bold;
+        }
+        table caption{
+            text-align: center;
+        }
+        tr:nth-child(even){
+            background-color: gray;
+        }
+        tr:nth-child(odd){
+            background-color: powderblue;
+        }
+        tr>td:nth-of-type(5){
+            text-align: right;
+        }
+        table, th, td {
+            text-align: center;
+            border: 1px solid black;
+        }
+        th, td {
+            padding-top: 15px;
+            padding-right: 15px;
+            padding-bottom: 5px;
+            padding-left: 5px;
+        }
+
+    </style>
 </head>
 
 <body>
-    <h1>Друзі Біланюка Романа Богдановича</h1>
-    <a href="index.html">Назад на головну</a>
+    <h1 class="centered">Друзі Біланюка Романа Богдановича</h1>
+    <a class="back" href="index.html">Назад на головну</a>
 
-    <h2>Мої друзі</h2>
+    <h2 class="centered">Мої друзі</h2>
 
     <table>
-        <caption>Друзі</caption>
+        <caption>Мої друзі</caption>
         <tbody>
             <tr>
                 <th>Прізвище</th>
                 <th>Ім'я</th>
                 <th>Дата народження</th>
-                <th>Адресса проживання</th>
+                <th>Адреса проживання</th>
                 <th>Контактний телефон</th>
             </tr>
             <tr>
