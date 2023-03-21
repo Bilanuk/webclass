@@ -162,21 +162,20 @@ header {
     margin: 20px;
 }
 
-.first {
-    background-color: #575757;
+.item {
     color: #fff;
     text-align: center;
+}
+
+.first {
+    background-color: #575757;
 }
 
 .second {
     background-color: #5f4343;
-    color: #fff;
-    text-align: center;
 }
 
 .third {
     background-color: #8e955b;
-    color: #fff;
-    text-align: center;
 }
 
