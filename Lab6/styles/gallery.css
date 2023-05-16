@@ -1,0 +1,51 @@
+@import 'shared.css';
+
+.centered {
+    text-align: center;
+}
+body h1 {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 5ex;
+}
+
+body a {
+    font-style: italic;
+}
+
+h3:nth-of-type(1) {
+    text-align: center;
+    font-size: 3.5ex;
+}
+
+h3:nth-of-type(2) {
+    text-align: center;
+    font-size: 6.5ex;
+}
+
+h3:nth-of-type(3) {
+    text-align: center;
+    font-size: 8.45ex;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    aspect-ratio: 4/3;
+    width: 320px;
+}
+  
+@media (max-width: 992px) and (min-width: 768px) {
+    img {
+      width: 250px;
+    }
+}
+
+@media (max-width: 768px) {
+    img {
+      width: 200px;
+    }
+}

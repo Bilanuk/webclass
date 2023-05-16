@@ -1,0 +1,39 @@
+@import 'shared.css';
+
+h1{
+    text-align: center;
+    font-size: 24px;
+    width: 100%;
+}
+p{
+    font-size: 120%;
+}
+a{
+    font-size: 120%;
+    text-decoration: none;
+    margin: 10px;
+}
+p:nth-child(3) a {
+    color: red;
+}
+p:nth-child(4) a {
+    color: green;
+}
+p:nth-child(5) a {
+    color: blue;
+}
+p:nth-child(6) a {
+    color: yellow;
+}
+p:nth-child(3) a:visited {
+    color: rgb(0, 136, 255);
+}
+p:nth-child(4) a:visited {
+    color: rgb(113, 0, 128);
+}
+p:nth-child(5) a:visited {
+    color: rgb(0, 255, 140);
+}
+p:nth-child(6) a:visited {
+    color: rgb(255, 0, 166);
+}

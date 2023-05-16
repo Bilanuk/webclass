@@ -1,0 +1,81 @@
+@import 'shared.css';
+
+#title{
+    text-align: center;
+    font-size: 22px;
+}
+#back{
+    font-style: italic;
+}
+#context{
+    text-align: center;
+}
+
+.button {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid red;
+    background-color: blue;
+    color: white;
+    display: block;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: magenta;
+    color: black;
+}
+
+.button:active {
+    background-color: yellow;
+    color: black;
+}
+
+article{
+    font-size: 120%;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+article h2{
+    font-size: 120%;
+}
+
+article:nth-of-type(1) {
+    background-color: rgb(50,0,120);
+    color: rgb(19,255,188);
+}
+article:nth-of-type(2) {
+    background-color: rgb(220, 7, 7);
+    color: rgb(255, 255, 255);
+}
+article:nth-of-type(3) {
+    background-color: rgb(32, 32, 32);
+    color: rgb(153, 192, 128);
+}
+article:nth-of-type(4) {
+    background-color: rgb(28, 0, 53);
+    color: rgb(165, 157, 157);
+}
+article:nth-of-type(5) {
+    background-color: rgb(1, 147, 245);
+    color: rgb(19, 19, 19);
+}
+article a{
+    font-weight: bold;
+    font-size: 3px;
+}
+
+.back_to_context{
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    color: inherit;
+}
+
+body>a:nth-last-child(1){
+    text-transform: uppercase;
+}

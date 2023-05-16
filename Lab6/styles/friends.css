@@ -1,0 +1,68 @@
+@import 'shared.css';
+
+h1{
+    font-size: 22px;
+}
+
+.back{
+    font-style: italic;
+}
+
+.centered {
+    text-align: center;
+}
+
+th{
+    text-align: center;
+    background-color: rgb(11, 189, 11);
+    color:white;
+    font-weight:bold;
+}
+table caption{
+    text-align: center;
+}
+tr:nth-child(even){
+    background-color: gray;
+}
+tr:nth-child(odd){
+    background-color: powderblue;
+}
+tr>td:nth-of-type(5){
+    text-align: right;
+}
+table, th, td {
+    text-align: center;
+    border: 1px solid black;
+}
+th, td {
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+thead {
+    font-size: 130%;
+  }
+  
+tbody {
+    font-size: 120%;
+}
+  
+@media (max-width: 992px) and (min-width: 768px) {
+    thead {
+      font-size: 120%;
+    }
+    tbody {
+      font-size: 110%;
+    }
+}
+  
+@media (max-width: 768px) {
+    thead {
+      font-size: 110%;
+    }
+    tbody {
+      font-size: 100%;
+    }
+}

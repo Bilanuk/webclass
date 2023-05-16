@@ -1,0 +1,33 @@
+@import 'shared.css';
+
+body h1 {
+    text-align: center;
+    font-size: 22px;
+}
+
+.back {
+    font-style: italic;
+}
+
+.centered {
+    text-align: center;
+}
+
+ul li:nth-child(odd) {
+    background-color: gray;
+    color: blue;
+}
+
+ul li:nth-child(even) {
+    background-color: rgb(255, 255, 255);
+    color: rgb(221, 42, 42);
+}
+
+ol li:nth-of-type(3):hover,
+ol li:nth-of-type(5):hover {
+    cursor: pointer;
+}
+
+ol li:nth-of-type(4) {
+    background-color: rgb(10, 205, 137);
+}
