@@ -35,7 +35,6 @@ let names = [
     "Jackson"
 ];
 
-console.log("<--------------------------->");
 console.log("If a name starts with 'J', say Good Bye; otherwise, say Hello");
 
 for (let i = 0; i < names.length; i++) {
@@ -46,7 +45,6 @@ for (let i = 0; i < names.length; i++) {
     }
 }
 
-console.log("<--------------------------->");
 console.log("If the ASCII sum of a name is even, say Hello; otherwise, say Good Bye");
 
 for (let i = 0; i < names.length; i++) {
@@ -61,15 +59,12 @@ for (let i = 0; i < names.length; i++) {
     }
 }
 
-console.log("<--------------------------->");
-console.log("If a name ends with 'n', say Good Bye; otherwise, say Hello");
+console.log("If a name ends with 'a', say Good Bye; otherwise, say Hello");
 
 for (let i = 0; i < names.length; i++) {
-    if (names[i][names[i].length - 1].toLowerCase() === "n") {
+    if (names[i][names[i].length - 1].toLowerCase() === "a") {
         speakGoodBye(names[i]);
     } else {
         speakHello(names[i]);
     }
 }
-
-console.log("<--------------------------->");
