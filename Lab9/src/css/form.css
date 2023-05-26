@@ -1,0 +1,50 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+#addItemForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#addItemForm label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#addItemForm input {
+    width: 100%;
+    padding: 5px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    background-color : rgb(90, 89, 89);
+    color: white;    
+}
+
+#addItemForm textarea {
+    width: 100%;
+    padding: 5px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    resize: none;
+    background-color : rgb(90, 89, 89);
+    color: white;   
+}
+
+#addItemForm button {
+    width: 50%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    background-color: #ccc;
+    color: #000000;
+    cursor: pointer;
+}

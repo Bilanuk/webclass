@@ -1,0 +1,20 @@
+item-component {
+    width: 100%;
+}
+
+.item-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0 0 0 2%;
+    padding: 10px;
+    margin: 5px;
+    overflow: hidden;
+}
+
+.item-wrapper img {
+    max-width: 100%;
+    object-fit: cover;
+    align-self: center;
+}
